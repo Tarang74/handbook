@@ -13,5 +13,5 @@ For VSCode/PlatformIO installation instructions, please see [QUTy homepage](http
 
 ## Resources
 
-- [ATtiny1626 Data Sheet](https://raw.githubusercontent.com/Tarang74/cab202-technical-support/main/ATtiny1626%20DataSheet.pdf)
-- [AVR Instruction Set Manual](https://raw.githubusercontent.com/Tarang74/cab202-technical-support/main/Instruction%20Set%20Manual.pdf)
+- [ATtiny1626 Data Sheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATtiny1624-26-27-DataSheet-DS40002234B.pdf)
+- [AVR Instruction Set Manual](https://ww1.microchip.com/downloads/en/DeviceDoc/AVR-InstructionSet-Manual-DS40002198.pdf)

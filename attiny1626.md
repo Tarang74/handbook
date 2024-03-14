@@ -14,7 +14,7 @@ Two factors to consider when choosing between PORT and VPORT are:
 ### Efficiency
 
 **VPORT** registers are located in the first 64 bytes of the I/O memory
-space (see [Table 8-1. Peripheral Address Map](https://raw.githubusercontent.com/Tarang74/cab202-technical-support/main/ATtiny1626%20DataSheet.pdf#page=62)),
+space (see [Table 8-1. Peripheral Address Map](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATtiny1624-26-27-DataSheet-DS40002234B.pdf#page=62)),
 that can be accessed using special single-cycle instructions such as
 `in`/`out` and `sbi`/`cbi`.
 
@@ -49,8 +49,8 @@ registers are not available on VPORT. In these cases, the PORT registers
 
 For a list of all available registers see:
 
-- [17.4 Register Summary - PORTx](https://raw.githubusercontent.com/Tarang74/cab202-technical-support/main/ATtiny1626%20DataSheet.pdf#page=153)
-- [17.6 Register Summary - VPORTx](https://raw.githubusercontent.com/Tarang74/cab202-technical-support/main/ATtiny1626%20DataSheet.pdf#page=166)
+- [17.4 Register Summary - PORTx](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATtiny1624-26-27-DataSheet-DS40002234B.pdf#page=153)
+- [17.6 Register Summary - VPORTx](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATtiny1624-26-27-DataSheet-DS40002234B.pdf#page=166)
 
 ### PORT vs VPORT Examples
 
