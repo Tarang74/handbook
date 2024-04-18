@@ -9,8 +9,8 @@ where it can store data. For example,
 int16_t x = 0; // declare an int16_t
 ```
 
-may assign the memory address `0x0000` to variable `x`, which occupies 2 bytes of memory. The memory layout might look like this:
-
+will assign the memory address `0x0000` to the variable `x`, which
+occupies 2 bytes of memory. The memory layout will then look like:
 
 ```c
 MEMORY LAYOUT
@@ -21,6 +21,15 @@ MEMORY LAYOUT
 
 where the value of `x` is determined by the pair of addresses
 `0x0000` and `0x0001`.
+
+---
+
+Note that on the ATtiny1626, variables are stored in SRAM, which grows
+downwards from the address `0x3FFF`. For the sake of simplicity, this
+document will assume memory grows upwards from the address `0x0000`, and
+that data is stored in big Endian format.
+
+---
 
 The value of `x` can be *directly* accessed using the identifier `x`. For example:
 
