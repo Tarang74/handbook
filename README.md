@@ -9,6 +9,7 @@ For VSCode/PlatformIO installation instructions, please see [QUTy homepage](http
 
 - [Assembly](assembly.md)
 - [ATtiny1626](attiny1626.md)
+- [C](c.md)
 - [Errors](errors.md)
 - [QUTy Playground](playground.md)
 
