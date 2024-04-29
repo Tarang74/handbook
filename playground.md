@@ -11,8 +11,8 @@ compile the [AVR Emulator binary](https://github.com/cab202/avremu).
 The following ZIP files contain empty PlatformIO projects for Assembly
 and C.
 
-- [**Assembly Project**](assembly.zip)
-- [**C Project**](c.zip)
+- [**Assembly Project**](https://github.com/Tarang74/handbook/raw/main/assembly.zip)
+- [**C Project**](https://github.com/Tarang74/handbook/raw/main/c.zip)
 
 ## Events
 
