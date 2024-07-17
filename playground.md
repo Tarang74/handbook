@@ -27,6 +27,7 @@ and take the form:
 ```
 
 where:
+
 - `time` is a count of nanoseconds since the start of the simulation,
   in hexadecimal (no prefix).
 - `component` is the name of the component of interest.
@@ -35,24 +36,32 @@ where:
 On the QUTy, the following components and actions are supported:
 
 - **UART Transmit** (**U5**)
+
   ```go
   @time U5: data
   ```
+
   where `data` is the byte to be transmitted, in hexadecimal (no prefix).
 - **Pushbutton Press** (**Sn**)
+
   ```go
   @time Sn: PRESS
   ```
+
   where `1 <= n <= 4` indicates the button being pressed.
 - **Pushbutton Release** (**Sn**)
+
   ```go
   @time Sn: RELEASE
   ```
+
   where `1 <= n <= 4` indicates the button being released.
 - **Potentiometer Position** (**R1**)
+
   ```go
   @time R1: position
   ```
+
   where `position` is the position of the potentiometer,
   as a floating-point number, ranging from 0 to 1.
 
@@ -79,26 +88,35 @@ must be supplied on a new line.
 The following arguments are supported:
 - **Timeout** (`-t` or `--timeout`): Specify the emulation runtime limit
   in nanoseconds, as a decimal value.
+
   ```go
   -t
   1000000000
   ```
+
 - **Dump Stack** (`-s` or `--dump-stack`): Dump the stack to stdout on
   termination.
+
   ```go
   -s
   ```
+
 - **Dump Registers** (`-r` or `--dump-regs`): Dump working register values
   to stdout on termination.
+
   ```go
   -r
   ```
+
 - **Dump Stdout** (`-o` or `--dump-stdout`): Dump the output of stdout to
   the file `stdout.txt` on termination.
+
   ```go
   -o
   ```
+
 - **Debug** (`-d` or `--debug`): Enable debug output.
+
   ```go
   -d
   ```
@@ -113,11 +131,13 @@ they should specify a large timeout and include the `break` instruction
 in their code. This will cause the emulator to terminate early.
 
 In Assembly:
+
 ```avrasm
 break
 ```
 
 In C:
+
 ```c
 asm("break");
 ```

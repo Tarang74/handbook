@@ -3,14 +3,16 @@
 This repository provides supporting information for the unit CAB202
 Microprocessors and Digital Systems.
 
-For VSCode/PlatformIO installation instructions, please see [QUTy homepage](https://cab202.github.io/quty/).
-
 ## Table of Contents
 
-- [Assembly](assembly.md)
-- [ATtiny1626](attiny1626.md)
-- [C](c.md)
-- [Errors](errors.md)
+- Development Environment
+  - [Installation](installation.md)
+  - [Using Gradescope](gradescope.md)
+- Frequently Asked Questions
+  - [ATtiny1626](attiny1626.md)
+  - [Assembly](assembly.md)
+  - [C](c.md)
+- [Common Errors](errors.md)
 - [QUTy Playground](playground.md)
 
 ## Resources

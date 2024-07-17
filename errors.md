@@ -1,4 +1,4 @@
-# Errors
+# Common Errors
 
 ## PlatformIO Errors
 
@@ -19,7 +19,7 @@ board = QUTy
 
 **Error:**
 
-```
+```txt
 ~/.platformio/packages/toolchain-atmelavr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avrxmega3/crtattiny1626.o:../../../../crt1/gcrt1.S:314: undefined reference to `main'
 collect2: error: ld returned 1 exit status
 *** [.pio/build/QUTy/firmware.elf] Error 1
@@ -42,7 +42,7 @@ automatically or when an invalid port is specified in `platformio.ini`.
 
 **Error:**
 
-```
+```txt
 Error: Please specify `upload_port` for environment or use global `--upload-port` option.
 For some development platforms it can be a USB flash drive (i.e. /media/<user>/<device name>)
 *** [upload] Explicit exit, status 1
@@ -76,7 +76,7 @@ ldi r17, r17
 
 **Error:**
 
-```
+```txt
 .pio/build/QUTy/src/main.o:(.init0+0x0):
 undefined reference to `r16'
 .pio/build/QUTy/src/main.o:(.init0+0x2):

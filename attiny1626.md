@@ -43,7 +43,7 @@ Note that `lds` and `sts` can still access VPORT registers, whereas
 ### Functionality
 
 The VPORT peripheral maps *frequently used* PORT registers, not all. For
-example, [strobe registers](##strobe-registers) and the `PINnCTRL`
+example, [strobe registers](#strobe-registers) and the `PINnCTRL`
 registers are not available on VPORT. In these cases, the PORT registers
 *must* be used.
 
