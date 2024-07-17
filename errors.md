@@ -1,4 +1,4 @@
-# Common Errors
+# 3. Common Errors
 
 ## PlatformIO Errors
 

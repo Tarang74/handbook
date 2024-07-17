@@ -5,15 +5,22 @@ Microprocessors and Digital Systems.
 
 ## Table of Contents
 
-- Development Environment
-  - [Installation](installation.md)
-  - [Using Gradescope](gradescope.md)
-- Frequently Asked Questions
-  - [ATtiny1626](attiny1626.md)
-  - [Assembly](assembly.md)
-  - [C](c.md)
-- [Common Errors](errors.md)
-- [QUTy Playground](playground.md)
+1. Development Environment
+
+   1.1. [Installation](installation.md)
+
+   1.2. [Using Gradescope](gradescope.md)
+
+2. Frequently Asked Questions
+
+   2.1. [ATtiny1626](attiny1626.md)
+
+   2.2. [Assembly](assembly.md)
+
+   2.3. [C](c.md)
+
+3. [Common Errors](errors.md)
+4. [QUTy Playground](playground.md)
 
 ## Resources
 

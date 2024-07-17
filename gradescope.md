@@ -1,4 +1,4 @@
-# Using Gradescope
+# 1.2 Using Gradescope
 
 Upon completion of a programming assignment, all source code must be
 uploaded to Gradescope for automated grading.

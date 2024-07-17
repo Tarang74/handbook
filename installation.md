@@ -1,4 +1,4 @@
-# Installation
+# 1.1 Installation
 
 To setup VSCode for development on the QUTy Microcontroller board,
 follow the installation steps found on the [QUTy Development Board](https://cab202.github.io/quty/).

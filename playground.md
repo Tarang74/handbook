@@ -1,4 +1,4 @@
-# Playground
+# 4. QUTy Playground
 
 In addition to compiling code, the QUTy playground allows users to
 provide their own emulator events and arguments.
