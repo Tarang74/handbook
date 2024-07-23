@@ -9,6 +9,7 @@ Microprocessors and Digital Systems.
 
 - 1.1. [Installation](1_1_installation.md)
 - 1.2. [Using Gradescope](1_2_gradescope.md)
+- 1.3. [Using the QUTy Development Board](1_3_quty.md)
 
 2\. Frequently Asked Questions
 
