@@ -56,6 +56,34 @@ machine, and that the QUTy board is connected to a USB port.
 Windows users should download the "CP210x VCP Windows" driver from
 [Silicon Labs - CP210x VCP Windows](https://www.silabs.com/documents/public/software/CP210x_VCP_Windows.zip).
 
+## UPDI Initialisation Failed
+
+This error occurs when the UPDI interface is unable to communicate with
+the ATtiny1626.
+
+**Error:**
+
+```txt
+Configuring upload protocol...
+AVAILABLE: updi
+CURRENT: upload_protocol = updi
+Looking for upload port...
+Auto-detected: COM3
+Forcing reset using 1200bps open/close on port COM3
+Uploading .pio/build/QUTy/firmware.hex
+Connecting to SerialUPDI
+pymcuprog.pymcuprog - ERROR - Operation failed with PymcuprogSerialUpdiError: UPDI initialisation failed
+*** [upload] Error 1
+======================= [FAILED] Took x seconds =======================
+```
+
+**Solution:**
+
+Ensure that the QUTy board is in programming mode (see [Programming through UPDI](1_3_quty.md#programming-through-updi)).
+
+If the error persists, ensure that the VCP drivers have been correctly
+installed on the host machine.
+
 ## Assembly Errors
 
 ### Undefined Reference to Rr
