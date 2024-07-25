@@ -1,4 +1,4 @@
-# 1.1 Installation
+# 1.1. Installation
 
 To setup VSCode for development on the QUTy Microcontroller board,
 follow the installation steps found on the [QUTy Development Board](https://cab202.github.io/quty/).
@@ -16,12 +16,12 @@ listed.
 
 ## Verifying Driver Installation
 
-To verify that the QUTy board is able to interface with a computer,
+To verify that the QUTy board is able to interface with a host machine,
 connect the device using a USB cable. Then navigate to the PlatformIO
 Devices tab, and ensure a device with the description "Silicon Labs
 CP210x USB to UART Bridge" is listed.
 
-The specific PORT name may vary depending on the computer and the
+The specific PORT name may vary depending on the host machine and the
 number of devices connected.
 
 ![PlatformIO Devices](images/devices.png)
