@@ -56,8 +56,8 @@ project root/
 └───platformio.ini
 ```
 
-To open this project correctly in VSCode, select **Open Folder** in
-VSCode and navigate to the **root directory** of the project.
+To open this project correctly in VSCode, select **Open Folder** and
+navigate to the **root directory** of the project.
 
 ![Open Folder](images/open-folder.png)
 
